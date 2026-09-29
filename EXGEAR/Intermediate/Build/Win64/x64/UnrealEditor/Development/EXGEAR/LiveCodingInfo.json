@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EXGEAR.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"EXGEAR.cpp.obj"
+		]
+	}
+}
