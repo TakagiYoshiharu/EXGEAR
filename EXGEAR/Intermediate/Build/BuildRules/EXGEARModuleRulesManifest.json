@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Plugins\\Effekseer\\Source\\EffekseerEd\\EffekseerEd.Build.cs",
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Plugins\\Effekseer\\Source\\Effekseer\\Effekseer.Build.cs",
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Intermediate\\Source\\EXGEAR.Build.cs",
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Intermediate\\Source\\EXGEAR.Target.cs",
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Intermediate\\Source\\EXGEARClient.Target.cs",
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Intermediate\\Source\\EXGEAREditor.Target.cs",
+		"C:\\Users\\01254011\\Documents\\Git\\EXGEAR\\EXGEAR\\Intermediate\\Source\\EXGEARServer.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

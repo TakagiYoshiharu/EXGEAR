@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\01254011\\documents\\git\\exgear\\exgear\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exgear\\module.exgear.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\01254011\\documents\\git\\exgear\\exgear\\intermediate\\build\\win64\\x64\\exgeareditor\\development\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\01254011\\documents\\git\\exgear\\exgear\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exgear\\definitions.exgear.h",
+            "c:\\users\\01254011\\documents\\git\\exgear\\exgear\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exgear\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "c:\\users\\01254011\\documents\\git\\exgear\\exgear\\intermediate\\source\\exgear.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
