@@ -5,12 +5,14 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Effekseer/Public/EffekseerMaterial.h"
+#include "EffekseerMaterial.h"
 #include "Serialization/ArchiveUObjectFromStructuredArchive.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerMaterial() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerMaterial();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerMaterial_NoRegister();
@@ -24,21 +26,17 @@ ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Effekseer();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin ScriptStruct FEffekseerTextureProperty
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_EffekseerTextureProperty;
+// ********** Begin ScriptStruct FEffekseerTextureProperty *****************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty;
 class UScriptStruct* FEffekseerTextureProperty::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerTextureProperty.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_EffekseerTextureProperty.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerTextureProperty, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerTextureProperty"));
+		Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerTextureProperty, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerTextureProperty"));
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerTextureProperty.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FEffekseerTextureProperty>()
-{
-	return FEffekseerTextureProperty::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FEffekseerTextureProperty_Statics
 {
@@ -80,27 +78,23 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FEffekseerTextu
 };
 UScriptStruct* Z_Construct_UScriptStruct_FEffekseerTextureProperty()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerTextureProperty.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_EffekseerTextureProperty.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerTextureProperty_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerTextureProperty_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerTextureProperty.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty.InnerSingleton;
 }
-// End ScriptStruct FEffekseerTextureProperty
+// ********** End ScriptStruct FEffekseerTextureProperty *******************************************
 
-// Begin ScriptStruct FEffekseerUniformProperty
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_EffekseerUniformProperty;
+// ********** Begin ScriptStruct FEffekseerUniformProperty *****************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty;
 class UScriptStruct* FEffekseerUniformProperty::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerUniformProperty.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_EffekseerUniformProperty.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerUniformProperty, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerUniformProperty"));
+		Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerUniformProperty, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerUniformProperty"));
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerUniformProperty.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FEffekseerUniformProperty>()
-{
-	return FEffekseerUniformProperty::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FEffekseerUniformProperty_Statics
 {
@@ -149,27 +143,23 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FEffekseerUnifo
 };
 UScriptStruct* Z_Construct_UScriptStruct_FEffekseerUniformProperty()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerUniformProperty.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_EffekseerUniformProperty.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerUniformProperty_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerUniformProperty_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerUniformProperty.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty.InnerSingleton;
 }
-// End ScriptStruct FEffekseerUniformProperty
+// ********** End ScriptStruct FEffekseerUniformProperty *******************************************
 
-// Begin ScriptStruct FEffekseerGradientProperty
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_EffekseerGradientProperty;
+// ********** Begin ScriptStruct FEffekseerGradientProperty ****************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty;
 class UScriptStruct* FEffekseerGradientProperty::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerGradientProperty.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_EffekseerGradientProperty.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerGradientProperty, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerGradientProperty"));
+		Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerGradientProperty, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerGradientProperty"));
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerGradientProperty.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FEffekseerGradientProperty>()
-{
-	return FEffekseerGradientProperty::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FEffekseerGradientProperty_Statics
 {
@@ -211,27 +201,23 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FEffekseerGradi
 };
 UScriptStruct* Z_Construct_UScriptStruct_FEffekseerGradientProperty()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerGradientProperty.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_EffekseerGradientProperty.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerGradientProperty_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerGradientProperty_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerGradientProperty.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty.InnerSingleton;
 }
-// End ScriptStruct FEffekseerGradientProperty
+// ********** End ScriptStruct FEffekseerGradientProperty ******************************************
 
-// Begin ScriptStruct FEffekseerMaterialElement
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_EffekseerMaterialElement;
+// ********** Begin ScriptStruct FEffekseerMaterialElement *****************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement;
 class UScriptStruct* FEffekseerMaterialElement::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerMaterialElement.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_EffekseerMaterialElement.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerMaterialElement, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerMaterialElement"));
+		Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerMaterialElement, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerMaterialElement"));
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerMaterialElement.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FEffekseerMaterialElement>()
-{
-	return FEffekseerMaterialElement::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FEffekseerMaterialElement_Statics
 {
@@ -282,22 +268,46 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FEffekseerMater
 };
 UScriptStruct* Z_Construct_UScriptStruct_FEffekseerMaterialElement()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerMaterialElement.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_EffekseerMaterialElement.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerMaterialElement_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerMaterialElement_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerMaterialElement.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement.InnerSingleton;
 }
-// End ScriptStruct FEffekseerMaterialElement
+// ********** End ScriptStruct FEffekseerMaterialElement *******************************************
 
-// Begin Class UEffekseerMaterial
+// ********** Begin Class UEffekseerMaterial *******************************************************
 void UEffekseerMaterial::StaticRegisterNativesUEffekseerMaterial()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UEffekseerMaterial);
+FClassRegistrationInfo Z_Registration_Info_UClass_UEffekseerMaterial;
+UClass* UEffekseerMaterial::GetPrivateStaticClass()
+{
+	using TClass = UEffekseerMaterial;
+	if (!Z_Registration_Info_UClass_UEffekseerMaterial.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("EffekseerMaterial"),
+			Z_Registration_Info_UClass_UEffekseerMaterial.InnerSingleton,
+			StaticRegisterNativesUEffekseerMaterial,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UEffekseerMaterial.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UEffekseerMaterial_NoRegister()
 {
-	return UEffekseerMaterial::StaticClass();
+	return UEffekseerMaterial::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UEffekseerMaterial_Statics
 {
@@ -377,17 +387,17 @@ struct Z_Construct_UClass_UEffekseerMaterial_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Material = { "Material", nullptr, (EPropertyFlags)0x0010000000000801, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Material), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Material_MetaData), NewProp_Material_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_MaterialElements_Inner = { "MaterialElements", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerMaterialElement, METADATA_PARAMS(0, nullptr) }; // 1687199635
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_MaterialElements = { "MaterialElements", nullptr, (EPropertyFlags)0x0010000000000801, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, MaterialElements), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaterialElements_MetaData), NewProp_MaterialElements_MetaData) }; // 1687199635
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Uniforms_Inner = { "Uniforms", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerUniformProperty, METADATA_PARAMS(0, nullptr) }; // 2657520410
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Uniforms = { "Uniforms", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Uniforms), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Uniforms_MetaData), NewProp_Uniforms_MetaData) }; // 2657520410
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Gradients_Inner = { "Gradients", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerGradientProperty, METADATA_PARAMS(0, nullptr) }; // 2061632419
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Gradients = { "Gradients", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Gradients), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Gradients_MetaData), NewProp_Gradients_MetaData) }; // 2061632419
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_MaterialElements_Inner = { "MaterialElements", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerMaterialElement, METADATA_PARAMS(0, nullptr) }; // 3964029208
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_MaterialElements = { "MaterialElements", nullptr, (EPropertyFlags)0x0010000000000801, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, MaterialElements), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaterialElements_MetaData), NewProp_MaterialElements_MetaData) }; // 3964029208
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Uniforms_Inner = { "Uniforms", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerUniformProperty, METADATA_PARAMS(0, nullptr) }; // 832304306
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Uniforms = { "Uniforms", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Uniforms), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Uniforms_MetaData), NewProp_Uniforms_MetaData) }; // 832304306
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Gradients_Inner = { "Gradients", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerGradientProperty, METADATA_PARAMS(0, nullptr) }; // 3336251063
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Gradients = { "Gradients", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Gradients), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Gradients_MetaData), NewProp_Gradients_MetaData) }; // 3336251063
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_UniformNameToIndex_ValueProp = { "UniformNameToIndex", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_UniformNameToIndex_Key_KeyProp = { "UniformNameToIndex_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_UniformNameToIndex = { "UniformNameToIndex", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, UniformNameToIndex), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_UniformNameToIndex_MetaData), NewProp_UniformNameToIndex_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Textures_Inner = { "Textures", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerTextureProperty, METADATA_PARAMS(0, nullptr) }; // 2195798453
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Textures = { "Textures", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Textures), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Textures_MetaData), NewProp_Textures_MetaData) }; // 2195798453
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Textures_Inner = { "Textures", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEffekseerTextureProperty, METADATA_PARAMS(0, nullptr) }; // 3522195317
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_Textures = { "Textures", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, Textures), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Textures_MetaData), NewProp_Textures_MetaData) }; // 3522195317
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_TextureNameToIndex_ValueProp = { "TextureNameToIndex", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_TextureNameToIndex_Key_KeyProp = { "TextureNameToIndex_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UEffekseerMaterial_Statics::NewProp_TextureNameToIndex = { "TextureNameToIndex", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerMaterial, TextureNameToIndex), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TextureNameToIndex_MetaData), NewProp_TextureNameToIndex_MetaData) };
@@ -457,32 +467,29 @@ UClass* Z_Construct_UClass_UEffekseerMaterial()
 	}
 	return Z_Registration_Info_UClass_UEffekseerMaterial.OuterSingleton;
 }
-template<> EFFEKSEER_API UClass* StaticClass<UEffekseerMaterial>()
-{
-	return UEffekseerMaterial::StaticClass();
-}
 UEffekseerMaterial::UEffekseerMaterial(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UEffekseerMaterial);
 UEffekseerMaterial::~UEffekseerMaterial() {}
 IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(UEffekseerMaterial)
-// End Class UEffekseerMaterial
+// ********** End Class UEffekseerMaterial *********************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h__Script_Effekseer_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FEffekseerTextureProperty::StaticStruct, Z_Construct_UScriptStruct_FEffekseerTextureProperty_Statics::NewStructOps, TEXT("EffekseerTextureProperty"), &Z_Registration_Info_UScriptStruct_EffekseerTextureProperty, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerTextureProperty), 2195798453U) },
-		{ FEffekseerUniformProperty::StaticStruct, Z_Construct_UScriptStruct_FEffekseerUniformProperty_Statics::NewStructOps, TEXT("EffekseerUniformProperty"), &Z_Registration_Info_UScriptStruct_EffekseerUniformProperty, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerUniformProperty), 2657520410U) },
-		{ FEffekseerGradientProperty::StaticStruct, Z_Construct_UScriptStruct_FEffekseerGradientProperty_Statics::NewStructOps, TEXT("EffekseerGradientProperty"), &Z_Registration_Info_UScriptStruct_EffekseerGradientProperty, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerGradientProperty), 2061632419U) },
-		{ FEffekseerMaterialElement::StaticStruct, Z_Construct_UScriptStruct_FEffekseerMaterialElement_Statics::NewStructOps, TEXT("EffekseerMaterialElement"), &Z_Registration_Info_UScriptStruct_EffekseerMaterialElement, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerMaterialElement), 1687199635U) },
+		{ FEffekseerTextureProperty::StaticStruct, Z_Construct_UScriptStruct_FEffekseerTextureProperty_Statics::NewStructOps, TEXT("EffekseerTextureProperty"), &Z_Registration_Info_UScriptStruct_FEffekseerTextureProperty, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerTextureProperty), 3522195317U) },
+		{ FEffekseerUniformProperty::StaticStruct, Z_Construct_UScriptStruct_FEffekseerUniformProperty_Statics::NewStructOps, TEXT("EffekseerUniformProperty"), &Z_Registration_Info_UScriptStruct_FEffekseerUniformProperty, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerUniformProperty), 832304306U) },
+		{ FEffekseerGradientProperty::StaticStruct, Z_Construct_UScriptStruct_FEffekseerGradientProperty_Statics::NewStructOps, TEXT("EffekseerGradientProperty"), &Z_Registration_Info_UScriptStruct_FEffekseerGradientProperty, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerGradientProperty), 3336251063U) },
+		{ FEffekseerMaterialElement::StaticStruct, Z_Construct_UScriptStruct_FEffekseerMaterialElement_Statics::NewStructOps, TEXT("EffekseerMaterialElement"), &Z_Registration_Info_UScriptStruct_FEffekseerMaterialElement, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerMaterialElement), 3964029208U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEffekseerMaterial, UEffekseerMaterial::StaticClass, TEXT("UEffekseerMaterial"), &Z_Registration_Info_UClass_UEffekseerMaterial, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerMaterial), 1469841983U) },
+		{ Z_Construct_UClass_UEffekseerMaterial, UEffekseerMaterial::StaticClass, TEXT("UEffekseerMaterial"), &Z_Registration_Info_UClass_UEffekseerMaterial, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerMaterial), 2506909575U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h_2263045914(TEXT("/Script/Effekseer"),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h_Statics::ScriptStructInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h__Script_Effekseer_4108609658(TEXT("/Script/Effekseer"),
+	Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h__Script_Effekseer_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h__Script_Effekseer_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h__Script_Effekseer_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerMaterial_h__Script_Effekseer_Statics::ScriptStructInfo),
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,30 +5,28 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Effekseer/Public/EffekseerHandle.h"
+#include "EffekseerHandle.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerHandle() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerEffect_NoRegister();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerSystemComponent_NoRegister();
 EFFEKSEER_API UScriptStruct* Z_Construct_UScriptStruct_FEffekseerHandle();
 UPackage* Z_Construct_UPackage__Script_Effekseer();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin ScriptStruct FEffekseerHandle
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_EffekseerHandle;
+// ********** Begin ScriptStruct FEffekseerHandle **************************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FEffekseerHandle;
 class UScriptStruct* FEffekseerHandle::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerHandle.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerHandle.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_EffekseerHandle.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerHandle, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerHandle"));
+		Z_Registration_Info_UScriptStruct_FEffekseerHandle.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEffekseerHandle, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EffekseerHandle"));
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerHandle.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FEffekseerHandle>()
-{
-	return FEffekseerHandle::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FEffekseerHandle.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FEffekseerHandle_Statics
 {
@@ -83,24 +81,25 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FEffekseerHandl
 };
 UScriptStruct* Z_Construct_UScriptStruct_FEffekseerHandle()
 {
-	if (!Z_Registration_Info_UScriptStruct_EffekseerHandle.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEffekseerHandle.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_EffekseerHandle.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerHandle_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FEffekseerHandle.InnerSingleton, Z_Construct_UScriptStruct_FEffekseerHandle_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_EffekseerHandle.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FEffekseerHandle.InnerSingleton;
 }
-// End ScriptStruct FEffekseerHandle
+// ********** End ScriptStruct FEffekseerHandle ****************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h__Script_Effekseer_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FEffekseerHandle::StaticStruct, Z_Construct_UScriptStruct_FEffekseerHandle_Statics::NewStructOps, TEXT("EffekseerHandle"), &Z_Registration_Info_UScriptStruct_EffekseerHandle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerHandle), 444932820U) },
+		{ FEffekseerHandle::StaticStruct, Z_Construct_UScriptStruct_FEffekseerHandle_Statics::NewStructOps, TEXT("EffekseerHandle"), &Z_Registration_Info_UScriptStruct_FEffekseerHandle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEffekseerHandle), 2064219384U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h_2707390024(TEXT("/Script/Effekseer"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h__Script_Effekseer_839334272(TEXT("/Script/Effekseer"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h__Script_Effekseer_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerHandle_h__Script_Effekseer_Statics::ScriptStructInfo),
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
