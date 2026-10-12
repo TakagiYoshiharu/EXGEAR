@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UEFfekseerProceduralModel ************************************************
 EFFEKSEER_API UClass* Z_Construct_UClass_UEFfekseerProceduralModel_NoRegister();
 
-#define FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_INCLASS_NO_PURE_DECLS \
+#define FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUEFfekseerProceduralModel(); \
 	friend struct Z_Construct_UClass_UEFfekseerProceduralModel_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UEFfekseerProceduralModel)
 
 
-#define FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_ENHANCED_CONSTRUCTORS \
+#define FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UEFfekseerProceduralModel(UEFfekseerProceduralModel&&) = delete; \
 	UEFfekseerProceduralModel(const UEFfekseerProceduralModel&) = delete; \
@@ -39,12 +39,12 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEFfekseerProceduralModel)
 
 
-#define FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_14_PROLOG
-#define FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_GENERATED_BODY \
+#define FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_14_PROLOG
+#define FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_INCLASS_NO_PURE_DECLS \
-	FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_ENHANCED_CONSTRUCTORS \
+	FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h_23_ENHANCED_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -54,6 +54,6 @@ class UEFfekseerProceduralModel;
 // ********** End Class UEFfekseerProceduralModel **************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h
+#define CURRENT_FILE_ID FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerProceduralModel_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

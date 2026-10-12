@@ -18,7 +18,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h
+#define CURRENT_FILE_ID FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h
 
 // ********** Begin Enum EEffekseerAlphaBlendType **************************************************
 #define FOREACH_ENUM_EEFFEKSEERALPHABLENDTYPE(op) \
