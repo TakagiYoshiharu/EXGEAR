@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Effekseer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Intermediate\Build\Win64\x64\EXGEAREditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.1.cpp.obj"
+"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.2.cpp.obj"
+"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.3.cpp.obj"
+"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Default.rc2.res"
+/OUT:"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\UnrealEditor-Effekseer.lib"

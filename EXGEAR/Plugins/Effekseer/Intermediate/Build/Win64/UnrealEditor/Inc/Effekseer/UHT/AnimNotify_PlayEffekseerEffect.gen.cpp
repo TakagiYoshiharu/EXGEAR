@@ -5,11 +5,13 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Effekseer/Public/AnimNotify_PlayEffekseerEffect.h"
+#include "AnimNotify_PlayEffekseerEffect.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeAnimNotify_PlayEffekseerEffect() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 EFFEKSEER_API UClass* Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect();
@@ -17,16 +19,40 @@ EFFEKSEER_API UClass* Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect_NoRegis
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerEffect_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UAnimNotify();
 UPackage* Z_Construct_UPackage__Script_Effekseer();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class UAnimNotify_PlayEffekseerEffect
+// ********** Begin Class UAnimNotify_PlayEffekseerEffect ******************************************
 void UAnimNotify_PlayEffekseerEffect::StaticRegisterNativesUAnimNotify_PlayEffekseerEffect()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UAnimNotify_PlayEffekseerEffect);
+FClassRegistrationInfo Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect;
+UClass* UAnimNotify_PlayEffekseerEffect::GetPrivateStaticClass()
+{
+	using TClass = UAnimNotify_PlayEffekseerEffect;
+	if (!Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("AnimNotify_PlayEffekseerEffect"),
+			Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect.InnerSingleton,
+			StaticRegisterNativesUAnimNotify_PlayEffekseerEffect,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect_NoRegister()
 {
-	return UAnimNotify_PlayEffekseerEffect::StaticClass();
+	return UAnimNotify_PlayEffekseerEffect::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect_Statics
 {
@@ -123,24 +149,21 @@ UClass* Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect()
 	}
 	return Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect.OuterSingleton;
 }
-template<> EFFEKSEER_API UClass* StaticClass<UAnimNotify_PlayEffekseerEffect>()
-{
-	return UAnimNotify_PlayEffekseerEffect::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UAnimNotify_PlayEffekseerEffect);
 UAnimNotify_PlayEffekseerEffect::~UAnimNotify_PlayEffekseerEffect() {}
-// End Class UAnimNotify_PlayEffekseerEffect
+// ********** End Class UAnimNotify_PlayEffekseerEffect ********************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h__Script_Effekseer_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect, UAnimNotify_PlayEffekseerEffect::StaticClass, TEXT("UAnimNotify_PlayEffekseerEffect"), &Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAnimNotify_PlayEffekseerEffect), 1843920808U) },
+		{ Z_Construct_UClass_UAnimNotify_PlayEffekseerEffect, UAnimNotify_PlayEffekseerEffect::StaticClass, TEXT("UAnimNotify_PlayEffekseerEffect"), &Z_Registration_Info_UClass_UAnimNotify_PlayEffekseerEffect, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAnimNotify_PlayEffekseerEffect), 433514277U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h_4155050598(TEXT("/Script/Effekseer"),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h__Script_Effekseer_388288784(TEXT("/Script/Effekseer"),
+	Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h__Script_Effekseer_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_AnimNotify_PlayEffekseerEffect_h__Script_Effekseer_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,12 +5,14 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Effekseer/Public/EffekseerEffect.h"
+#include "EffekseerEffect.h"
 #include "Serialization/ArchiveUObjectFromStructuredArchive.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerEffect() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerCurve_NoRegister();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerEffect();
@@ -28,21 +30,17 @@ EFFEKSEER_API UScriptStruct* Z_Construct_UScriptStruct_FSoftParticleParameter();
 ENGINE_API UClass* Z_Construct_UClass_UAssetImportData_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Effekseer();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin ScriptStruct FFlipbookParameters
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FlipbookParameters;
+// ********** Begin ScriptStruct FFlipbookParameters ***********************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FFlipbookParameters;
 class UScriptStruct* FFlipbookParameters::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_FlipbookParameters.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FFlipbookParameters.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_FlipbookParameters.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FFlipbookParameters, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("FlipbookParameters"));
+		Z_Registration_Info_UScriptStruct_FFlipbookParameters.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FFlipbookParameters, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("FlipbookParameters"));
 	}
-	return Z_Registration_Info_UScriptStruct_FlipbookParameters.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FFlipbookParameters>()
-{
-	return FFlipbookParameters::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FFlipbookParameters.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FFlipbookParameters_Statics
 {
@@ -72,27 +70,23 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FFlipbookParame
 };
 UScriptStruct* Z_Construct_UScriptStruct_FFlipbookParameters()
 {
-	if (!Z_Registration_Info_UScriptStruct_FlipbookParameters.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FFlipbookParameters.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FlipbookParameters.InnerSingleton, Z_Construct_UScriptStruct_FFlipbookParameters_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FFlipbookParameters.InnerSingleton, Z_Construct_UScriptStruct_FFlipbookParameters_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_FlipbookParameters.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FFlipbookParameters.InnerSingleton;
 }
-// End ScriptStruct FFlipbookParameters
+// ********** End ScriptStruct FFlipbookParameters *************************************************
 
-// Begin ScriptStruct FEdgeParameters
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_EdgeParameters;
+// ********** Begin ScriptStruct FEdgeParameters ***************************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FEdgeParameters;
 class UScriptStruct* FEdgeParameters::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_EdgeParameters.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEdgeParameters.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_EdgeParameters.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEdgeParameters, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EdgeParameters"));
+		Z_Registration_Info_UScriptStruct_FEdgeParameters.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FEdgeParameters, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("EdgeParameters"));
 	}
-	return Z_Registration_Info_UScriptStruct_EdgeParameters.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FEdgeParameters>()
-{
-	return FEdgeParameters::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FEdgeParameters.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FEdgeParameters_Statics
 {
@@ -122,27 +116,23 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FEdgeParameters
 };
 UScriptStruct* Z_Construct_UScriptStruct_FEdgeParameters()
 {
-	if (!Z_Registration_Info_UScriptStruct_EdgeParameters.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FEdgeParameters.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_EdgeParameters.InnerSingleton, Z_Construct_UScriptStruct_FEdgeParameters_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FEdgeParameters.InnerSingleton, Z_Construct_UScriptStruct_FEdgeParameters_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_EdgeParameters.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FEdgeParameters.InnerSingleton;
 }
-// End ScriptStruct FEdgeParameters
+// ********** End ScriptStruct FEdgeParameters *****************************************************
 
-// Begin ScriptStruct FFalloffParameter
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FalloffParameter;
+// ********** Begin ScriptStruct FFalloffParameter *************************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FFalloffParameter;
 class UScriptStruct* FFalloffParameter::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_FalloffParameter.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FFalloffParameter.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_FalloffParameter.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FFalloffParameter, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("FalloffParameter"));
+		Z_Registration_Info_UScriptStruct_FFalloffParameter.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FFalloffParameter, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("FalloffParameter"));
 	}
-	return Z_Registration_Info_UScriptStruct_FalloffParameter.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FFalloffParameter>()
-{
-	return FFalloffParameter::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FFalloffParameter.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FFalloffParameter_Statics
 {
@@ -172,27 +162,23 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FFalloffParamet
 };
 UScriptStruct* Z_Construct_UScriptStruct_FFalloffParameter()
 {
-	if (!Z_Registration_Info_UScriptStruct_FalloffParameter.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FFalloffParameter.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FalloffParameter.InnerSingleton, Z_Construct_UScriptStruct_FFalloffParameter_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FFalloffParameter.InnerSingleton, Z_Construct_UScriptStruct_FFalloffParameter_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_FalloffParameter.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FFalloffParameter.InnerSingleton;
 }
-// End ScriptStruct FFalloffParameter
+// ********** End ScriptStruct FFalloffParameter ***************************************************
 
-// Begin ScriptStruct FSoftParticleParameter
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_SoftParticleParameter;
+// ********** Begin ScriptStruct FSoftParticleParameter ********************************************
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FSoftParticleParameter;
 class UScriptStruct* FSoftParticleParameter::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_SoftParticleParameter.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FSoftParticleParameter.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_SoftParticleParameter.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FSoftParticleParameter, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("SoftParticleParameter"));
+		Z_Registration_Info_UScriptStruct_FSoftParticleParameter.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FSoftParticleParameter, (UObject*)Z_Construct_UPackage__Script_Effekseer(), TEXT("SoftParticleParameter"));
 	}
-	return Z_Registration_Info_UScriptStruct_SoftParticleParameter.OuterSingleton;
-}
-template<> EFFEKSEER_API UScriptStruct* StaticStruct<FSoftParticleParameter>()
-{
-	return FSoftParticleParameter::StaticStruct();
+	return Z_Registration_Info_UScriptStruct_FSoftParticleParameter.OuterSingleton;
 }
 struct Z_Construct_UScriptStruct_FSoftParticleParameter_Statics
 {
@@ -222,22 +208,46 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FSoftParticlePa
 };
 UScriptStruct* Z_Construct_UScriptStruct_FSoftParticleParameter()
 {
-	if (!Z_Registration_Info_UScriptStruct_SoftParticleParameter.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FSoftParticleParameter.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_SoftParticleParameter.InnerSingleton, Z_Construct_UScriptStruct_FSoftParticleParameter_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FSoftParticleParameter.InnerSingleton, Z_Construct_UScriptStruct_FSoftParticleParameter_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_SoftParticleParameter.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_FSoftParticleParameter.InnerSingleton;
 }
-// End ScriptStruct FSoftParticleParameter
+// ********** End ScriptStruct FSoftParticleParameter **********************************************
 
-// Begin Class UEffekseerEffectMaterialParameterHolder
+// ********** Begin Class UEffekseerEffectMaterialParameterHolder **********************************
 void UEffekseerEffectMaterialParameterHolder::StaticRegisterNativesUEffekseerEffectMaterialParameterHolder()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UEffekseerEffectMaterialParameterHolder);
+FClassRegistrationInfo Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder;
+UClass* UEffekseerEffectMaterialParameterHolder::GetPrivateStaticClass()
+{
+	using TClass = UEffekseerEffectMaterialParameterHolder;
+	if (!Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("EffekseerEffectMaterialParameterHolder"),
+			Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder.InnerSingleton,
+			StaticRegisterNativesUEffekseerEffectMaterialParameterHolder,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_NoRegister()
 {
-	return UEffekseerEffectMaterialParameterHolder::StaticClass();
+	return UEffekseerEffectMaterialParameterHolder::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics
 {
@@ -375,7 +385,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEffekseerEffe
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_BlendAlphaTextureAddress = { "BlendAlphaTextureAddress", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, BlendAlphaTextureAddress), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BlendAlphaTextureAddress_MetaData), NewProp_BlendAlphaTextureAddress_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_BlendUVDistortionTexture = { "BlendUVDistortionTexture", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, BlendUVDistortionTexture), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BlendUVDistortionTexture_MetaData), NewProp_BlendUVDistortionTexture_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_BlendUVDistortionTextureAddress = { "BlendUVDistortionTextureAddress", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, BlendUVDistortionTextureAddress), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BlendUVDistortionTextureAddress_MetaData), NewProp_BlendUVDistortionTextureAddress_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_FlipbookParams = { "FlipbookParams", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, FlipbookParams), Z_Construct_UScriptStruct_FFlipbookParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FlipbookParams_MetaData), NewProp_FlipbookParams_MetaData) }; // 498725887
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_FlipbookParams = { "FlipbookParams", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, FlipbookParams), Z_Construct_UScriptStruct_FFlipbookParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FlipbookParams_MetaData), NewProp_FlipbookParams_MetaData) }; // 3178640067
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_UVDistortionIntensity = { "UVDistortionIntensity", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, UVDistortionIntensity), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_UVDistortionIntensity_MetaData), NewProp_UVDistortionIntensity_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_TextureBlendType = { "TextureBlendType", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, TextureBlendType), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TextureBlendType_MetaData), NewProp_TextureBlendType_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_BlendUVDistortionIntensity = { "BlendUVDistortionIntensity", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, BlendUVDistortionIntensity), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BlendUVDistortionIntensity_MetaData), NewProp_BlendUVDistortionIntensity_MetaData) };
@@ -384,10 +394,10 @@ void Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp
 	((UEffekseerEffectMaterialParameterHolder*)Obj)->EnableFalloff = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_EnableFalloff = { "EnableFalloff", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UEffekseerEffectMaterialParameterHolder), &Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_EnableFalloff_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnableFalloff_MetaData), NewProp_EnableFalloff_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_FalloffParam = { "FalloffParam", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, FalloffParam), Z_Construct_UScriptStruct_FFalloffParameter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FalloffParam_MetaData), NewProp_FalloffParam_MetaData) }; // 1325822245
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_FalloffParam = { "FalloffParam", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, FalloffParam), Z_Construct_UScriptStruct_FFalloffParameter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FalloffParam_MetaData), NewProp_FalloffParam_MetaData) }; // 327557685
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_EmissiveScaling = { "EmissiveScaling", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, EmissiveScaling), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EmissiveScaling_MetaData), NewProp_EmissiveScaling_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_EdgeParams = { "EdgeParams", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, EdgeParams), Z_Construct_UScriptStruct_FEdgeParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EdgeParams_MetaData), NewProp_EdgeParams_MetaData) }; // 3902812301
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_SoftParticleParam = { "SoftParticleParam", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, SoftParticleParam), Z_Construct_UScriptStruct_FSoftParticleParameter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SoftParticleParam_MetaData), NewProp_SoftParticleParam_MetaData) }; // 802473119
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_EdgeParams = { "EdgeParams", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, EdgeParams), Z_Construct_UScriptStruct_FEdgeParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EdgeParams_MetaData), NewProp_EdgeParams_MetaData) }; // 217274386
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_SoftParticleParam = { "SoftParticleParam", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, SoftParticleParam), Z_Construct_UScriptStruct_FSoftParticleParameter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SoftParticleParam_MetaData), NewProp_SoftParticleParam_MetaData) }; // 2076860598
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_AlphaBlend_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_AlphaBlend = { "AlphaBlend", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEffekseerEffectMaterialParameterHolder, AlphaBlend), Z_Construct_UEnum_Effekseer_EEffekseerAlphaBlendType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AlphaBlend_MetaData), NewProp_AlphaBlend_MetaData) }; // 1220931236
 void Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder_Statics::NewProp_IsDepthTestDisabled_SetBit(void* Obj)
@@ -464,23 +474,43 @@ UClass* Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder()
 	}
 	return Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder.OuterSingleton;
 }
-template<> EFFEKSEER_API UClass* StaticClass<UEffekseerEffectMaterialParameterHolder>()
-{
-	return UEffekseerEffectMaterialParameterHolder::StaticClass();
-}
 UEffekseerEffectMaterialParameterHolder::UEffekseerEffectMaterialParameterHolder(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UEffekseerEffectMaterialParameterHolder);
 UEffekseerEffectMaterialParameterHolder::~UEffekseerEffectMaterialParameterHolder() {}
-// End Class UEffekseerEffectMaterialParameterHolder
+// ********** End Class UEffekseerEffectMaterialParameterHolder ************************************
 
-// Begin Class UEffekseerEffect
+// ********** Begin Class UEffekseerEffect *********************************************************
 void UEffekseerEffect::StaticRegisterNativesUEffekseerEffect()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UEffekseerEffect);
+FClassRegistrationInfo Z_Registration_Info_UClass_UEffekseerEffect;
+UClass* UEffekseerEffect::GetPrivateStaticClass()
+{
+	using TClass = UEffekseerEffect;
+	if (!Z_Registration_Info_UClass_UEffekseerEffect.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("EffekseerEffect"),
+			Z_Registration_Info_UClass_UEffekseerEffect.InnerSingleton,
+			StaticRegisterNativesUEffekseerEffect,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UEffekseerEffect.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UEffekseerEffect_NoRegister()
 {
-	return UEffekseerEffect::StaticClass();
+	return UEffekseerEffect::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UEffekseerEffect_Statics
 {
@@ -631,33 +661,30 @@ UClass* Z_Construct_UClass_UEffekseerEffect()
 	}
 	return Z_Registration_Info_UClass_UEffekseerEffect.OuterSingleton;
 }
-template<> EFFEKSEER_API UClass* StaticClass<UEffekseerEffect>()
-{
-	return UEffekseerEffect::StaticClass();
-}
 UEffekseerEffect::UEffekseerEffect(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UEffekseerEffect);
 UEffekseerEffect::~UEffekseerEffect() {}
 IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(UEffekseerEffect)
-// End Class UEffekseerEffect
+// ********** End Class UEffekseerEffect ***********************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h__Script_Effekseer_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FFlipbookParameters::StaticStruct, Z_Construct_UScriptStruct_FFlipbookParameters_Statics::NewStructOps, TEXT("FlipbookParameters"), &Z_Registration_Info_UScriptStruct_FlipbookParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFlipbookParameters), 498725887U) },
-		{ FEdgeParameters::StaticStruct, Z_Construct_UScriptStruct_FEdgeParameters_Statics::NewStructOps, TEXT("EdgeParameters"), &Z_Registration_Info_UScriptStruct_EdgeParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEdgeParameters), 3902812301U) },
-		{ FFalloffParameter::StaticStruct, Z_Construct_UScriptStruct_FFalloffParameter_Statics::NewStructOps, TEXT("FalloffParameter"), &Z_Registration_Info_UScriptStruct_FalloffParameter, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFalloffParameter), 1325822245U) },
-		{ FSoftParticleParameter::StaticStruct, Z_Construct_UScriptStruct_FSoftParticleParameter_Statics::NewStructOps, TEXT("SoftParticleParameter"), &Z_Registration_Info_UScriptStruct_SoftParticleParameter, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSoftParticleParameter), 802473119U) },
+		{ FFlipbookParameters::StaticStruct, Z_Construct_UScriptStruct_FFlipbookParameters_Statics::NewStructOps, TEXT("FlipbookParameters"), &Z_Registration_Info_UScriptStruct_FFlipbookParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFlipbookParameters), 3178640067U) },
+		{ FEdgeParameters::StaticStruct, Z_Construct_UScriptStruct_FEdgeParameters_Statics::NewStructOps, TEXT("EdgeParameters"), &Z_Registration_Info_UScriptStruct_FEdgeParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEdgeParameters), 217274386U) },
+		{ FFalloffParameter::StaticStruct, Z_Construct_UScriptStruct_FFalloffParameter_Statics::NewStructOps, TEXT("FalloffParameter"), &Z_Registration_Info_UScriptStruct_FFalloffParameter, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFalloffParameter), 327557685U) },
+		{ FSoftParticleParameter::StaticStruct, Z_Construct_UScriptStruct_FSoftParticleParameter_Statics::NewStructOps, TEXT("SoftParticleParameter"), &Z_Registration_Info_UScriptStruct_FSoftParticleParameter, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSoftParticleParameter), 2076860598U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder, UEffekseerEffectMaterialParameterHolder::StaticClass, TEXT("UEffekseerEffectMaterialParameterHolder"), &Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerEffectMaterialParameterHolder), 3721938816U) },
-		{ Z_Construct_UClass_UEffekseerEffect, UEffekseerEffect::StaticClass, TEXT("UEffekseerEffect"), &Z_Registration_Info_UClass_UEffekseerEffect, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerEffect), 4033116684U) },
+		{ Z_Construct_UClass_UEffekseerEffectMaterialParameterHolder, UEffekseerEffectMaterialParameterHolder::StaticClass, TEXT("UEffekseerEffectMaterialParameterHolder"), &Z_Registration_Info_UClass_UEffekseerEffectMaterialParameterHolder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerEffectMaterialParameterHolder), 103622831U) },
+		{ Z_Construct_UClass_UEffekseerEffect, UEffekseerEffect::StaticClass, TEXT("UEffekseerEffect"), &Z_Registration_Info_UClass_UEffekseerEffect, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerEffect), 2914782000U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h_4193468836(TEXT("/Script/Effekseer"),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h_Statics::ScriptStructInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h__Script_Effekseer_912201899(TEXT("/Script/Effekseer"),
+	Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h__Script_Effekseer_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h__Script_Effekseer_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h__Script_Effekseer_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEffect_h__Script_Effekseer_Statics::ScriptStructInfo),
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

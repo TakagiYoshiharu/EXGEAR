@@ -5,25 +5,51 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "EffekseerEd/Public/EffekseerModelFactory.h"
+#include "EffekseerModelFactory.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerModelFactory() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 EFFEKSEERED_API UClass* Z_Construct_UClass_UEffekseerModelFactory();
 EFFEKSEERED_API UClass* Z_Construct_UClass_UEffekseerModelFactory_NoRegister();
 UNREALED_API UClass* Z_Construct_UClass_UFactory();
 UPackage* Z_Construct_UPackage__Script_EffekseerEd();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class UEffekseerModelFactory
+// ********** Begin Class UEffekseerModelFactory ***************************************************
 void UEffekseerModelFactory::StaticRegisterNativesUEffekseerModelFactory()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UEffekseerModelFactory);
+FClassRegistrationInfo Z_Registration_Info_UClass_UEffekseerModelFactory;
+UClass* UEffekseerModelFactory::GetPrivateStaticClass()
+{
+	using TClass = UEffekseerModelFactory;
+	if (!Z_Registration_Info_UClass_UEffekseerModelFactory.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("EffekseerModelFactory"),
+			Z_Registration_Info_UClass_UEffekseerModelFactory.InnerSingleton,
+			StaticRegisterNativesUEffekseerModelFactory,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UEffekseerModelFactory.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UEffekseerModelFactory_NoRegister()
 {
-	return UEffekseerModelFactory::StaticClass();
+	return UEffekseerModelFactory::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UEffekseerModelFactory_Statics
 {
@@ -67,24 +93,21 @@ UClass* Z_Construct_UClass_UEffekseerModelFactory()
 	}
 	return Z_Registration_Info_UClass_UEffekseerModelFactory.OuterSingleton;
 }
-template<> EFFEKSEERED_API UClass* StaticClass<UEffekseerModelFactory>()
-{
-	return UEffekseerModelFactory::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UEffekseerModelFactory);
 UEffekseerModelFactory::~UEffekseerModelFactory() {}
-// End Class UEffekseerModelFactory
+// ********** End Class UEffekseerModelFactory *****************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h__Script_EffekseerEd_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEffekseerModelFactory, UEffekseerModelFactory::StaticClass, TEXT("UEffekseerModelFactory"), &Z_Registration_Info_UClass_UEffekseerModelFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerModelFactory), 1994186581U) },
+		{ Z_Construct_UClass_UEffekseerModelFactory, UEffekseerModelFactory::StaticClass, TEXT("UEffekseerModelFactory"), &Z_Registration_Info_UClass_UEffekseerModelFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerModelFactory), 3400566945U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h_3124157608(TEXT("/Script/EffekseerEd"),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h__Script_EffekseerEd_845654721(TEXT("/Script/EffekseerEd"),
+	Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h__Script_EffekseerEd_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerModelFactory_h__Script_EffekseerEd_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

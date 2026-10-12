@@ -5,25 +5,51 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "EffekseerEd/Public/EffekseerMaterialFactory.h"
+#include "EffekseerMaterialFactory.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerMaterialFactory() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 EFFEKSEERED_API UClass* Z_Construct_UClass_UEffekseerMaterialFactory();
 EFFEKSEERED_API UClass* Z_Construct_UClass_UEffekseerMaterialFactory_NoRegister();
 UNREALED_API UClass* Z_Construct_UClass_UFactory();
 UPackage* Z_Construct_UPackage__Script_EffekseerEd();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class UEffekseerMaterialFactory
+// ********** Begin Class UEffekseerMaterialFactory ************************************************
 void UEffekseerMaterialFactory::StaticRegisterNativesUEffekseerMaterialFactory()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UEffekseerMaterialFactory);
+FClassRegistrationInfo Z_Registration_Info_UClass_UEffekseerMaterialFactory;
+UClass* UEffekseerMaterialFactory::GetPrivateStaticClass()
+{
+	using TClass = UEffekseerMaterialFactory;
+	if (!Z_Registration_Info_UClass_UEffekseerMaterialFactory.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("EffekseerMaterialFactory"),
+			Z_Registration_Info_UClass_UEffekseerMaterialFactory.InnerSingleton,
+			StaticRegisterNativesUEffekseerMaterialFactory,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UEffekseerMaterialFactory.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UEffekseerMaterialFactory_NoRegister()
 {
-	return UEffekseerMaterialFactory::StaticClass();
+	return UEffekseerMaterialFactory::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UEffekseerMaterialFactory_Statics
 {
@@ -67,24 +93,21 @@ UClass* Z_Construct_UClass_UEffekseerMaterialFactory()
 	}
 	return Z_Registration_Info_UClass_UEffekseerMaterialFactory.OuterSingleton;
 }
-template<> EFFEKSEERED_API UClass* StaticClass<UEffekseerMaterialFactory>()
-{
-	return UEffekseerMaterialFactory::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UEffekseerMaterialFactory);
 UEffekseerMaterialFactory::~UEffekseerMaterialFactory() {}
-// End Class UEffekseerMaterialFactory
+// ********** End Class UEffekseerMaterialFactory **************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h__Script_EffekseerEd_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEffekseerMaterialFactory, UEffekseerMaterialFactory::StaticClass, TEXT("UEffekseerMaterialFactory"), &Z_Registration_Info_UClass_UEffekseerMaterialFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerMaterialFactory), 4021986617U) },
+		{ Z_Construct_UClass_UEffekseerMaterialFactory, UEffekseerMaterialFactory::StaticClass, TEXT("UEffekseerMaterialFactory"), &Z_Registration_Info_UClass_UEffekseerMaterialFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerMaterialFactory), 1606569631U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h_1082317681(TEXT("/Script/EffekseerEd"),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h__Script_EffekseerEd_1435407395(TEXT("/Script/EffekseerEd"),
+	Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h__Script_EffekseerEd_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254006_EXGEAR_EXGEAR_Plugins_Effekseer_Source_EffekseerEd_Public_EffekseerMaterialFactory_h__Script_EffekseerEd_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
