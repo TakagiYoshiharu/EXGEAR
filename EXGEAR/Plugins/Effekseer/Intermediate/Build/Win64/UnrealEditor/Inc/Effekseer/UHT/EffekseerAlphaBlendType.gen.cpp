@@ -5,16 +5,18 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Effekseer/Public/EffekseerAlphaBlendType.h"
+#include "EffekseerAlphaBlendType.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerAlphaBlendType() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 EFFEKSEER_API UEnum* Z_Construct_UEnum_Effekseer_EEffekseerAlphaBlendType();
 UPackage* Z_Construct_UPackage__Script_Effekseer();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Enum EEffekseerAlphaBlendType
+// ********** Begin Enum EEffekseerAlphaBlendType **************************************************
 static FEnumRegistrationInfo Z_Registration_Info_UEnum_EEffekseerAlphaBlendType;
 static UEnum* EEffekseerAlphaBlendType_StaticEnum()
 {
@@ -70,18 +72,19 @@ UEnum* Z_Construct_UEnum_Effekseer_EEffekseerAlphaBlendType()
 	}
 	return Z_Registration_Info_UEnum_EEffekseerAlphaBlendType.InnerSingleton;
 }
-// End Enum EEffekseerAlphaBlendType
+// ********** End Enum EEffekseerAlphaBlendType ****************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h__Script_Effekseer_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EEffekseerAlphaBlendType_StaticEnum, TEXT("EEffekseerAlphaBlendType"), &Z_Registration_Info_UEnum_EEffekseerAlphaBlendType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1220931236U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h_4167540808(TEXT("/Script/Effekseer"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h__Script_Effekseer_4167540808(TEXT("/Script/Effekseer"),
 	nullptr, 0,
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h_Statics::EnumInfo));
-// End Registration
+	Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h__Script_Effekseer_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerAlphaBlendType_h__Script_Effekseer_Statics::EnumInfo));
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

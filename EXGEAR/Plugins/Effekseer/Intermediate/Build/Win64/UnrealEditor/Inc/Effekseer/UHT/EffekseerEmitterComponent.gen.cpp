@@ -5,12 +5,14 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Effekseer/Public/EffekseerEmitterComponent.h"
+#include "EffekseerEmitterComponent.h"
 #include "Serialization/ArchiveUObjectFromStructuredArchive.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeEffekseerEmitterComponent() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerEffect_NoRegister();
 EFFEKSEER_API UClass* Z_Construct_UClass_UEffekseerEmitterComponent();
@@ -20,9 +22,9 @@ ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent();
 UPackage* Z_Construct_UPackage__Script_Effekseer();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class UEffekseerEmitterComponent Function Exists
+// ********** Begin Class UEffekseerEmitterComponent Function Exists *******************************
 struct Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics
 {
 	struct EffekseerEmitterComponent_eventExists_Parms
@@ -49,7 +51,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEffek
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "Exists", nullptr, nullptr, Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::EffekseerEmitterComponent_eventExists_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "Exists", Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::EffekseerEmitterComponent_eventExists_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UEffekseerEmitterComponent_Exists_Statics::EffekseerEmitterComponent_eventExists_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UEffekseerEmitterComponent_Exists()
 {
@@ -67,9 +69,9 @@ DEFINE_FUNCTION(UEffekseerEmitterComponent::execExists)
 	*(bool*)Z_Param__Result=P_THIS->Exists();
 	P_NATIVE_END;
 }
-// End Class UEffekseerEmitterComponent Function Exists
+// ********** End Class UEffekseerEmitterComponent Function Exists *********************************
 
-// Begin Class UEffekseerEmitterComponent Function Preview
+// ********** Begin Class UEffekseerEmitterComponent Function Preview ******************************
 #if WITH_EDITOR
 struct Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics
 {
@@ -82,7 +84,7 @@ struct Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "Preview", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x24020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "Preview", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x24020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_Preview_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UEffekseerEmitterComponent_Preview()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -102,9 +104,9 @@ DEFINE_FUNCTION(UEffekseerEmitterComponent::execPreview)
 	P_NATIVE_END;
 }
 #endif // WITH_EDITOR
-// End Class UEffekseerEmitterComponent Function Preview
+// ********** End Class UEffekseerEmitterComponent Function Preview ********************************
 
-// Begin Class UEffekseerEmitterComponent Function SendTrigger
+// ********** Begin Class UEffekseerEmitterComponent Function SendTrigger **************************
 struct Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics
 {
 	struct EffekseerEmitterComponent_eventSendTrigger_Parms
@@ -126,7 +128,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEffek
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::NewProp_index,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "SendTrigger", nullptr, nullptr, Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::EffekseerEmitterComponent_eventSendTrigger_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "SendTrigger", Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::EffekseerEmitterComponent_eventSendTrigger_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger_Statics::EffekseerEmitterComponent_eventSendTrigger_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger()
 {
@@ -145,9 +147,9 @@ DEFINE_FUNCTION(UEffekseerEmitterComponent::execSendTrigger)
 	P_THIS->SendTrigger(Z_Param_index);
 	P_NATIVE_END;
 }
-// End Class UEffekseerEmitterComponent Function SendTrigger
+// ********** End Class UEffekseerEmitterComponent Function SendTrigger ****************************
 
-// Begin Class UEffekseerEmitterComponent Function Stop
+// ********** Begin Class UEffekseerEmitterComponent Function Stop *********************************
 struct Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics
 {
 #if WITH_METADATA
@@ -158,7 +160,7 @@ struct Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "Stop", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "Stop", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_Stop_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UEffekseerEmitterComponent_Stop()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -175,9 +177,9 @@ DEFINE_FUNCTION(UEffekseerEmitterComponent::execStop)
 	P_THIS->Stop();
 	P_NATIVE_END;
 }
-// End Class UEffekseerEmitterComponent Function Stop
+// ********** End Class UEffekseerEmitterComponent Function Stop ***********************************
 
-// Begin Class UEffekseerEmitterComponent Function StopRoot
+// ********** Begin Class UEffekseerEmitterComponent Function StopRoot *****************************
 struct Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics
 {
 #if WITH_METADATA
@@ -188,7 +190,7 @@ struct Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "StopRoot", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEffekseerEmitterComponent, nullptr, "StopRoot", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -205,9 +207,9 @@ DEFINE_FUNCTION(UEffekseerEmitterComponent::execStopRoot)
 	P_THIS->StopRoot();
 	P_NATIVE_END;
 }
-// End Class UEffekseerEmitterComponent Function StopRoot
+// ********** End Class UEffekseerEmitterComponent Function StopRoot *******************************
 
-// Begin Class UEffekseerEmitterComponent
+// ********** Begin Class UEffekseerEmitterComponent ***********************************************
 void UEffekseerEmitterComponent::StaticRegisterNativesUEffekseerEmitterComponent()
 {
 	UClass* Class = UEffekseerEmitterComponent::StaticClass();
@@ -222,10 +224,34 @@ void UEffekseerEmitterComponent::StaticRegisterNativesUEffekseerEmitterComponent
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UEffekseerEmitterComponent);
+FClassRegistrationInfo Z_Registration_Info_UClass_UEffekseerEmitterComponent;
+UClass* UEffekseerEmitterComponent::GetPrivateStaticClass()
+{
+	using TClass = UEffekseerEmitterComponent;
+	if (!Z_Registration_Info_UClass_UEffekseerEmitterComponent.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("EffekseerEmitterComponent"),
+			Z_Registration_Info_UClass_UEffekseerEmitterComponent.InnerSingleton,
+			StaticRegisterNativesUEffekseerEmitterComponent,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UEffekseerEmitterComponent.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UEffekseerEmitterComponent_NoRegister()
 {
-	return UEffekseerEmitterComponent::StaticClass();
+	return UEffekseerEmitterComponent::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UEffekseerEmitterComponent_Statics
 {
@@ -293,13 +319,13 @@ struct Z_Construct_UClass_UEffekseerEmitterComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_Exists, "Exists" }, // 824208128
+		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_Exists, "Exists" }, // 3825220620
 #if WITH_EDITOR
-		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_Preview, "Preview" }, // 1721979933
+		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_Preview, "Preview" }, // 3808362785
 #endif // WITH_EDITOR
-		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger, "SendTrigger" }, // 1095047864
-		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_Stop, "Stop" }, // 4002599178
-		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot, "StopRoot" }, // 5348420
+		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_SendTrigger, "SendTrigger" }, // 3659647780
+		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_Stop, "Stop" }, // 3207345781
+		{ &Z_Construct_UFunction_UEffekseerEmitterComponent_StopRoot, "StopRoot" }, // 2312766635
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -370,24 +396,21 @@ UClass* Z_Construct_UClass_UEffekseerEmitterComponent()
 	}
 	return Z_Registration_Info_UClass_UEffekseerEmitterComponent.OuterSingleton;
 }
-template<> EFFEKSEER_API UClass* StaticClass<UEffekseerEmitterComponent>()
-{
-	return UEffekseerEmitterComponent::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UEffekseerEmitterComponent);
 IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(UEffekseerEmitterComponent)
-// End Class UEffekseerEmitterComponent
+// ********** End Class UEffekseerEmitterComponent *************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h__Script_Effekseer_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEffekseerEmitterComponent, UEffekseerEmitterComponent::StaticClass, TEXT("UEffekseerEmitterComponent"), &Z_Registration_Info_UClass_UEffekseerEmitterComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerEmitterComponent), 1745920223U) },
+		{ Z_Construct_UClass_UEffekseerEmitterComponent, UEffekseerEmitterComponent::StaticClass, TEXT("UEffekseerEmitterComponent"), &Z_Registration_Info_UClass_UEffekseerEmitterComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEffekseerEmitterComponent), 122521786U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h_2208206571(TEXT("/Script/Effekseer"),
-	Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_01254011_Documents_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h__Script_Effekseer_2368216170(TEXT("/Script/Effekseer"),
+	Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h__Script_Effekseer_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_EXGEAR_EXGEAR_Plugins_Effekseer_Source_Effekseer_Public_EffekseerEmitterComponent_h__Script_Effekseer_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
