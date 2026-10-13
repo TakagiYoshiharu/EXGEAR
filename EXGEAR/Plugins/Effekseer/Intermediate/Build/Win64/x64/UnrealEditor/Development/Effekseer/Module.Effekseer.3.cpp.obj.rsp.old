@@ -1,17 +1,18 @@
-"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.3.cpp"
-/FI"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Intermediate\Build\Win64\x64\EXGEAREditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Definitions.Effekseer.h"
-/Yu"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Intermediate\Build\Win64\x64\EXGEAREditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Intermediate\Build\Win64\x64\EXGEAREditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.3.cpp.obj"
-/experimental:log "C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.3.cpp.sarif"
-/sourceDependencies "C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Module.Effekseer.3.cpp.dep.json"
-@"C:\Users\01254011\Documents\Git\EXGEAR\EXGEAR\Plugins\Effekseer\Intermediate\Build\Win64\x64\UnrealEditor\Development\Effekseer\Effekseer.Shared.rsp"
+"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Plugins/Effekseer/Intermediate/Build/Win64/x64/UnrealEditor/Development/Effekseer/Module.Effekseer.3.cpp"
+@"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Plugins/Effekseer/Intermediate/Build/Win64/x64/UnrealEditor/Development/Effekseer/Effekseer.Shared.rsp"
+/FI"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Plugins/Effekseer/Intermediate/Build/Win64/x64/UnrealEditor/Development/Effekseer/Definitions.Effekseer.h"
+/Yu"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Plugins/Effekseer/Intermediate/Build/Win64/x64/UnrealEditor/Development/Effekseer/Module.Effekseer.3.cpp.obj"
+/experimental:log "C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Plugins/Effekseer/Intermediate/Build/Win64/x64/UnrealEditor/Development/Effekseer/Module.Effekseer.3.cpp.sarif"
+/sourceDependencies "C:/Users/01254011/Documents/Git/EXGEAR/EXGEAR/Plugins/Effekseer/Intermediate/Build/Win64/x64/UnrealEditor/Development/Effekseer/Module.Effekseer.3.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
 /FC
+/diagnostics:caret
 /c
 /Gw
 /Gy
@@ -39,15 +40,14 @@
 /fp:fast
 /Zo
 /Zp8
+/W4
 /we4456
 /we4458
 /we4459
-/we4668
 /wd4244
 /wd4838
 /TP
 /GR-
-/W4
 /std:c++20
 /Zc:preprocessor
 /wd5054
