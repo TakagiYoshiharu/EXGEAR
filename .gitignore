@@ -73,3 +73,28 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+# Unreal generated debug files
+*.pdb
+*.exp
+*.ilk
+*.target
+
+# Unreal generated logs
+*.log
+
+# Unreal package output
+Packaging/
+
+# EXGEAR project generated files (repository root is one level above project)
+EXGEAR/Binaries/
+EXGEAR/Intermediate/
+EXGEAR/Saved/
+EXGEAR/DerivedDataCache/
+EXGEAR/Build/
+
+# Generated debug/build files inside EXGEAR
+EXGEAR/*.pdb
+EXGEAR/*.exp
+EXGEAR/*.ilk
+EXGEAR/*.target
+EXGEAR/*.log
